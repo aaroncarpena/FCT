@@ -1,0 +1,63 @@
+.contacto-form {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contacto-campo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  text-align: left;
+}
+
+.contacto-campo label {
+  font-weight: bold;
+  color: #6b6375;
+}
+
+.contacto-campo input,
+.contacto-campo textarea,
+.contacto-campo .p-dropdown {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #D4694A;
+  border-radius: 8px;
+  background: transparent;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1rem;
+  color: #333;
+  outline: none;
+}
+
+.contacto-campo textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contacto-campo input:focus,
+.contacto-campo textarea:focus {
+  border-color: #D4694A;
+  box-shadow: 0 0 0 2px rgba(212, 105, 74, 0.2);
+}
+
+.contacto-btn {
+  align-self: center;
+  padding: 0.6rem 2rem;
+  border: 2px solid #D4694A;
+  border-radius: 10px;
+  background: transparent;
+  color: #333;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.contacto-btn:hover {
+  background-color: #D4694A;
+  color: #fff;
+}

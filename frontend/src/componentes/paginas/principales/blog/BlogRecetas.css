@@ -1,0 +1,58 @@
+
+.recetas-contenedor {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.receta-card {
+  border: 1px solid #D4694A;
+  border-radius: 12px;
+  overflow: hidden;
+  background: transparent;
+}
+
+.receta-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.receta-card-body {
+  padding: 1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+.receta-card-body .receta-card-nombre{
+    font-size: 2rem;
+}
+
+.receta-categoria {
+  font-size: 0.8rem;
+  color: #D4694A;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.receta-card-body h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.receta-card-body p {
+  font-size: 0.9rem;
+  color: #6b6375;
+}
+
+.receta-info {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: #6b6375;
+  margin-top: 0.5rem;
+}

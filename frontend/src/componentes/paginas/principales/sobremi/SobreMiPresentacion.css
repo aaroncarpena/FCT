@@ -1,0 +1,23 @@
+.sobremi-presentacion-contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+  padding: 2rem;
+}
+
+.sobremi-presentacion-contenedor img {
+  width: 476px;
+  height: 476px;
+  object-fit: cover;
+  border-radius: 8px;
+  align-self: center;
+  justify-self: center;
+}
+.sobremi-presentacion-contenedor .sobremi-presentacion-texto {
+  justify-content: right;
+  align-self: center;
+}
+.nombre{
+    font-size: 2rem;
+}

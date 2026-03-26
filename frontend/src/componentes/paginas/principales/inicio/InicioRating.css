@@ -1,0 +1,23 @@
+.participante-card {
+  padding: 2rem 2.5rem;
+  margin: 1rem 2rem;
+  border: 1px solid #D4694A;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+.p-carousel {
+  background: transparent;
+}
+
+.p-carousel-content {
+  background: transparent;
+}
+.titulo-rating{
+  margin-top: 5px;
+  font-size: 2rem;
+  margin-bottom: 5px;
+}

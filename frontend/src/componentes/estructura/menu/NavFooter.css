@@ -1,0 +1,17 @@
+.nav-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #FDF6EC;
+}
+a:hover{
+    color: #F4A261;
+}
+h3{
+    font-size: 25px;
+    margin-bottom: 5px;
+}

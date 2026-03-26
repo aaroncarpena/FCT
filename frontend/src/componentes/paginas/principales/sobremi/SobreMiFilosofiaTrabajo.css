@@ -1,0 +1,27 @@
+.filosofia-trabajo-contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+  padding: 2rem;
+}
+
+.titulo-filosofia-trabajo {
+  margin-top: 5px;
+  font-size: 2rem;
+}
+
+.filosofia-trabajo-contenedor .filosofia-trabajo-texto {
+  align-self: center;
+  order: 1;
+}
+
+.filosofia-trabajo-contenedor img {
+  width: 476px;
+  height: 476px;
+  object-fit: cover;
+  border-radius: 8px;
+  align-self: center;
+  justify-self: center;
+  order: 2;
+}
