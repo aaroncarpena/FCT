@@ -47,6 +47,10 @@
 .receta-card-body p {
   font-size: 0.9rem;
   color: #6b6375;
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .receta-info {
@@ -55,4 +59,47 @@
   font-size: 0.85rem;
   color: #6b6375;
   margin-top: 0.5rem;
+}
+.receta-btn {
+  align-self: flex-start;
+  margin-top: 0.5rem;
+  padding: 0.4rem 1.2rem;
+  border: 1px solid #D4694A;
+  border-radius: 8px;
+  background: transparent;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.receta-btn:hover {
+  background-color: #D4694A;
+  color: #fff;
+}
+.buscador-contenedor {
+  position: relative;
+  width: 300px;
+  margin: 1rem auto;
+  
+}
+
+.buscador-input {
+  width: 100%;
+  padding: 0.6rem 2.5rem 0.6rem 1rem;
+  border: 1px solid #D4694A;
+  border-radius: 20px;
+  background: transparent;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1rem;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.buscador-icono {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #D4694A;
+  pointer-events: none;
 }

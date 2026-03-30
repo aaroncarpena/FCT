@@ -4,7 +4,7 @@ const NavFooter = () => {
   return (
     <>
         <section>
-          <h3 clas>Enlaces</h3>
+          <h3 className="nav-footer-title">Enlaces</h3>
           <nav className="nav-footer">
             <a href="/">Inicio</a>
             <a href="/sobreMi">Sobre Mi</a>

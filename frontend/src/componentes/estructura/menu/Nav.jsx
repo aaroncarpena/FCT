@@ -1,10 +1,15 @@
-import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { NavLink, useLocation } from "react-router-dom";
 import Logo from "../../../assets/Logo.png";
 import "./Nav.css";
 
 const Nav = () => {
   const [blogAbierto, setBlogAbierto] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => {
+    setBlogAbierto(false);
+  }, [location]);
 
   return (
     <nav className="nav-principal">
@@ -41,14 +46,25 @@ const Nav = () => {
       >
         Talleres
       </NavLink>
+      <NavLink
+        className={({ isActive }) => (isActive ? "links active" : "links")}
+        to="/tienda"
+      >
+        Tienda
+      </NavLink>
 
-      <div className="dropdown">
-        <NavLink
-          className={({ isActive }) => (isActive ? "links active" : "links")}
-          to="/blog/recetas"
+      <div
+        className="dropdown"
+        onMouseEnter={() => setBlogAbierto(true)}
+        onMouseLeave={() => setBlogAbierto(false)}
+      >
+        <span
+          className="links"
+          onClick={() => setBlogAbierto(!blogAbierto)}
+          style={{ cursor: 'pointer' }}
         >
           Blog
-        </NavLink>
+        </span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
@@ -64,28 +80,16 @@ const Nav = () => {
         {blogAbierto && (
           <div className="dropdown-menu">
             <NavLink
-              className={({ isActive }) =>
-                isActive ? "links active" : "links"
-              }
+              className={({ isActive }) => isActive ? "links active" : "links"}
               to="/blog/recetas"
             >
               Recetas
             </NavLink>
             <NavLink
-              className={({ isActive }) =>
-                isActive ? "links active" : "links"
-              }
+              className={({ isActive }) => isActive ? "links active" : "links"}
               to="/blog/articulos"
             >
               Artículos
-            </NavLink>
-            <NavLink
-              className={({ isActive }) =>
-                isActive ? "links active" : "links"
-              }
-              to="/blog/videos"
-            >
-              Vídeos
             </NavLink>
           </div>
         )}

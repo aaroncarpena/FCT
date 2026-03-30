@@ -1,0 +1,109 @@
+.programa-intro {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  text-align: center;
+  color: #6b6375;
+}
+
+.programa-contenedor {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.programa-card {
+  border: 1px solid #D4694A;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.programa-card-destacado {
+  border: 2px solid #D4694A;
+  transform: scale(1.05);
+}
+
+.programa-card-badge {
+  position: absolute;
+  top: -14px;
+  background: #D4694A;
+  color: #fff;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+.programa-card-titulo {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.programa-card-precio {
+  font-size: 2rem;
+  color: #D4694A;
+  margin: 0;
+}
+
+.programa-card-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: #6b6375;
+  font-size: 0.9rem;
+}
+
+.programa-card-lista li::before {
+  content: '✓ ';
+  color: #D4694A;
+}
+
+.programa-btn {
+  margin-top: auto;
+  padding: 0.6rem 2rem;
+  border: 1px solid #D4694A;
+  border-radius: 10px;
+  background: transparent;
+  cursor: pointer;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.programa-btn:hover {
+  background-color: #D4694A;
+  color: #fff;
+}
+
+.programa-btn-destacado {
+  background-color: #D4694A;
+  color: #fff;
+}
+
+.programa-btn-destacado:hover {
+  background-color: transparent;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .programa-contenedor {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .programa-card-destacado {
+    transform: scale(1);
+  }
+}

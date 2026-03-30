@@ -1,8 +1,31 @@
-.titulo-principal{
-    font-size: 42px;
+.titulo-principal {
+  padding: 3rem 2rem 1rem;
+  text-align: center;
 }
-.mini-titulo{
-    margin-top: 5px;
-    font-size: 18px;
-    margin-top: 1rem;
+
+.titulo-principal h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  line-height: 1.3;
+}
+
+.introduccion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem 2rem 3rem;
+  text-align: center;
+}
+
+.introduccion p {
+  color: #6b6375;
+  max-width: 600px;
+}
+
+.mini-titulo {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  color: #D4694A;
+  margin: 0;
 }

@@ -4,7 +4,7 @@ import './BotonInicioSesion.css'
 const BotonInicioSesion = () => {
   return (
     <section>
-        <Link className="btn" to="/iniciarSesion">Reserva 1ª Sesión</Link>
+        <Link className="btn" to="/contacto">Reservar</Link>
       </section>
   )
 }
