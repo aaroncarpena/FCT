@@ -81,3 +81,42 @@
     height: 200px;
   }
 }
+.p-paginator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1.5rem 0;
+  background: transparent;
+  border: none;
+}
+
+.p-paginator .p-paginator-page,
+.p-paginator .p-paginator-next,
+.p-paginator .p-paginator-prev,
+.p-paginator .p-paginator-first,
+.p-paginator .p-paginator-last {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #D4694A;
+  background: transparent;
+  color: #D4694A;
+  cursor: pointer;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.p-paginator .p-paginator-page:hover,
+.p-paginator .p-paginator-next:hover,
+.p-paginator .p-paginator-prev:hover {
+  background-color: #D4694A;
+  color: #fff;
+}
+
+.p-paginator .p-paginator-page.p-highlight {
+  background-color: #8B2500;
+  border-color: #8B2500;
+  color: #fff;
+}
