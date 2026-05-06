@@ -77,6 +77,8 @@
   background: transparent;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
+    color: #D4694A;
+
 }
 
 .articulo-btn:hover {

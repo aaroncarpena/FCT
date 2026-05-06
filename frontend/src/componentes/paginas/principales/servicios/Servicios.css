@@ -60,9 +60,15 @@
   font-family: 'Dancing Script', cursive;
   font-size: 1.1rem;
   transition: background-color 0.3s, color 0.3s;
+    color: #D4694A;
+
 }
 
 .servicios-cta-btn:hover {
   background-color: #D4694A;
   color: #fff;
+}
+.titulo-servicios{
+    color: #D4694A;
+
 }
