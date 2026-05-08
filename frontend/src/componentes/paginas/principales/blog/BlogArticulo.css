@@ -7,7 +7,7 @@
 .buscador-input {
   width: 100%;
   padding: 0.6rem 2.5rem 0.6rem 1rem;
-  border: 1px solid #D4694A;
+  border: 1px solid #579cd4;
   border-radius: 20px;
   background: transparent;
   font-family: 'Dancing Script', cursive;
@@ -21,7 +21,7 @@
   right: 12px;
   top: 50%;
   transform: translateY(-50%);
-  color: #D4694A;
+  color: #579cd4;
   pointer-events: none;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .articulo-card {
-  border: 1px solid #D4694A;
+  border: 1px solid #579cd4;
   border-radius: 12px;
   overflow: hidden;
   background: transparent;
@@ -72,7 +72,7 @@
   align-self: flex-start;
   margin-top: 0.5rem;
   padding: 0.4rem 1.2rem;
-  border: 1px solid #D4694A;
+  border: 1px solid #579cd4;
   border-radius: 8px;
   background: transparent;
   cursor: pointer;
@@ -80,6 +80,6 @@
 }
 
 .articulo-btn:hover {
-  background-color: #D4694A;
+  background-color: #579cd4;
   color: #fff;
 }

@@ -15,7 +15,7 @@
 }
 
 .programa-card {
-  border: 1px solid #D4694A;
+  border: 1px solid #579cd4;
   border-radius: 12px;
   padding: 2rem;
   width: 280px;
@@ -28,14 +28,14 @@
 }
 
 .programa-card-destacado {
-  border: 2px solid #D4694A;
+  border: 2px solid #579cd4;
   transform: scale(1.05);
 }
 
 .programa-card-badge {
   position: absolute;
   top: -14px;
-  background: #D4694A;
+  background: #579cd4;
   color: #fff;
   padding: 0.3rem 1rem;
   border-radius: 20px;
@@ -49,7 +49,7 @@
 
 .programa-card-precio {
   font-size: 2rem;
-  color: #D4694A;
+  color: #579cd4;
   margin: 0;
 }
 
@@ -67,13 +67,13 @@
 
 .programa-card-lista li::before {
   content: '✓ ';
-  color: #D4694A;
+  color: #579cd4;
 }
 
 .programa-btn {
   margin-top: auto;
   padding: 0.6rem 2rem;
-  border: 1px solid #D4694A;
+  border: 1px solid #579cd4;
   border-radius: 10px;
   background: transparent;
   cursor: pointer;
@@ -83,12 +83,12 @@
 }
 
 .programa-btn:hover {
-  background-color: #D4694A;
+  background-color: #579cd4;
   color: #fff;
 }
 
 .programa-btn-destacado {
-  background-color: #D4694A;
+  background-color: #579cd4;
   color: #fff;
 }
 

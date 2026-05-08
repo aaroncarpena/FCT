@@ -17,7 +17,7 @@
 .tienda-producto {
   display: flex;
   gap: 1.5rem;
-  border: 1px solid #D4694A;
+  border: 1px solid #579cd4;
   border-radius: 12px;
   overflow: hidden;
   padding: 1rem;
@@ -51,13 +51,13 @@
 
 .tienda-producto-precio {
   font-size: 1.3rem;
-  color: #D4694A;
+  color: #579cd4;
 }
 
 .tienda-producto-btn {
   align-self: flex-start;
   padding: 0.4rem 1.2rem;
-  border: 1px solid #D4694A;
+  border: 1px solid #579cd4;
   border-radius: 8px;
   background: transparent;
   cursor: pointer;
@@ -67,7 +67,7 @@
 }
 
 .tienda-producto-btn:hover {
-  background-color: #D4694A;
+  background-color: #579cd4;
   color: #fff;
 }
 
@@ -99,9 +99,9 @@
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  border: 1px solid #D4694A;
+  border: 1px solid #579cd4;
   background: transparent;
-  color: #D4694A;
+  color: #579cd4;
   cursor: pointer;
   font-family: 'Dancing Script', cursive;
   font-size: 1rem;
@@ -111,12 +111,12 @@
 .p-paginator .p-paginator-page:hover,
 .p-paginator .p-paginator-next:hover,
 .p-paginator .p-paginator-prev:hover {
-  background-color: #D4694A;
+  background-color: #579cd4;
   color: #fff;
 }
 
 .p-paginator .p-paginator-page.p-highlight {
-  background-color: #8B2500;
-  border-color: #8B2500;
+  background-color: #006f8b;
+  border-color: #006f8b;
   color: #fff;
 }

@@ -4,19 +4,19 @@
     align-items: center;
     color: #333;
     padding: 1rem;
-    background-color: #D46A57; /*#C75B4B */
+    background-color: #579cd4;
 }
 .links{
-    color: #FDF6EC;
+    color: #bceef5;
     text-decoration: none;
     transition:color 0.2s ease;
     font-size: 24px;
 }
 .links:hover{
-    color: #F4A261;
+    color: #61e3f4;
 }
 .links.active{
-    color: #F4A261;
+    color: #61e3f4;
 }
 .logo{
     width: 80px;
@@ -31,7 +31,7 @@
   position: absolute;
   top: 100%;
   left: 0;
-  background: #D4694A;
+  background: #579cd4;
   display: flex;
   flex-direction: column;
   border-radius: 8px;

@@ -43,7 +43,7 @@
   gap: 1rem;
   padding: 3rem 2rem;
   margin-top: 1rem;
-  border-top: 1px solid #D4694A;
+  border-top: 1px solid #579cd4;
 }
 
 .servicios-cta p {
@@ -53,7 +53,7 @@
 
 .servicios-cta-btn {
   padding: 0.6rem 2rem;
-  border: 2px solid #D4694A;
+  border: 2px solid #579cd4;
   border-radius: 10px;
   background: transparent;
   cursor: pointer;
@@ -63,6 +63,6 @@
 }
 
 .servicios-cta-btn:hover {
-  background-color: #D4694A;
+  background-color: #579cd4;
   color: #fff;
 }
