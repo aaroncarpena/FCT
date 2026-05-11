@@ -9,6 +9,12 @@
 .titulo-filosofia-trabajo {
   margin-top: 5px;
   font-size: 2rem;
+    color: #D4694A;
+
+}
+.titulo-filosofia-trabajo h2{
+    color: #D4694A;
+
 }
 
 .filosofia-trabajo-contenedor .filosofia-trabajo-texto {

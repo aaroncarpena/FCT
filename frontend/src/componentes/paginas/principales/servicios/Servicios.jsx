@@ -10,7 +10,7 @@ const Servicios = () => {
 
   return (
     <>
-      <h1>Servicios</h1>
+      <h1 className='titulo-servicios'>Servicios</h1>
       <p className="servicios-intro">
         Te acompaño en el proceso de mejorar tu alimentación de forma real y sostenible, sin restricciones imposibles ni dietas estrictas.
       </p>
