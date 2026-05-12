@@ -57,7 +57,7 @@
 body {
   background-color: #bceef5;
   color: #333333;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Supermercado One";
 }
 
 #root {
@@ -74,7 +74,7 @@ body {
 
 h1,
 h2 {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Supermercado One";
   font-weight: 500;
   color: var(--text-h);
 }

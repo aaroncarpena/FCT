@@ -5,10 +5,12 @@ import "./Nav.css";
 
 const Nav = () => {
   const [blogAbierto, setBlogAbierto] = useState(false);
+  const [serviciosAbierto, setServiciosAbierto] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
     setBlogAbierto(false);
+    setServiciosAbierto(false);
   }, [location]);
 
   return (
@@ -28,24 +30,48 @@ const Nav = () => {
       >
         Sobre Mi
       </NavLink>
-      <NavLink
-        className={({ isActive }) => (isActive ? "links active" : "links")}
-        to="/servicios"
+
+      {/* Dropdown Servicios */}
+      <div
+        className="dropdown"
+        onMouseEnter={() => setServiciosAbierto(true)}
+        onMouseLeave={() => setServiciosAbierto(false)}
       >
-        Servicios
-      </NavLink>
-      <NavLink
-        className={({ isActive }) => (isActive ? "links active" : "links")}
-        to="/programa"
-      >
-        Programa
-      </NavLink>
-      <NavLink
-        className={({ isActive }) => (isActive ? "links active" : "links")}
-        to="/talleres"
-      >
-        Talleres
-      </NavLink>
+        <NavLink
+          className={({ isActive }) => (isActive ? "links active" : "links")}
+          to="/servicios"
+        >
+          Servicios
+        </NavLink>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="#bceef5"
+          className="bi bi-caret-down-fill"
+          viewBox="0 0 16 16"
+          style={{ cursor: "pointer" }}
+        >
+          <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+        </svg>
+        {serviciosAbierto && (
+          <div className="dropdown-menu">
+            <NavLink
+              className={({ isActive }) => (isActive ? "links active" : "links")}
+              to="/programa"
+            >
+              Programa
+            </NavLink>
+            <NavLink
+              className={({ isActive }) => (isActive ? "links active" : "links")}
+              to="/talleres"
+            >
+              Talleres
+            </NavLink>
+          </div>
+        )}
+      </div>
+
       <NavLink
         className={({ isActive }) => (isActive ? "links active" : "links")}
         to="/tienda"
@@ -53,6 +79,7 @@ const Nav = () => {
         Tienda
       </NavLink>
 
+      {/* Dropdown Blog */}
       <div
         className="dropdown"
         onMouseEnter={() => setBlogAbierto(true)}
@@ -61,7 +88,7 @@ const Nav = () => {
         <span
           className="links"
           onClick={() => setBlogAbierto(!blogAbierto)}
-          style={{ cursor: 'pointer' }}
+          style={{ cursor: "pointer" }}
         >
           Blog
         </span>
@@ -69,7 +96,7 @@ const Nav = () => {
           xmlns="http://www.w3.org/2000/svg"
           width="16"
           height="16"
-          fill="#FDF6EC"
+          fill="#bceef5"
           className="bi bi-caret-down-fill"
           viewBox="0 0 16 16"
           onClick={() => setBlogAbierto(!blogAbierto)}
@@ -80,13 +107,13 @@ const Nav = () => {
         {blogAbierto && (
           <div className="dropdown-menu">
             <NavLink
-              className={({ isActive }) => isActive ? "links active" : "links"}
+              className={({ isActive }) => (isActive ? "links active" : "links")}
               to="/blog/recetas"
             >
               Recetas
             </NavLink>
             <NavLink
-              className={({ isActive }) => isActive ? "links active" : "links"}
+              className={({ isActive }) => (isActive ? "links active" : "links")}
               to="/blog/articulos"
             >
               Artículos

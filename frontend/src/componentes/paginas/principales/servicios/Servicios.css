@@ -57,10 +57,10 @@
   border-radius: 10px;
   background: transparent;
   cursor: pointer;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Supermercado One";
   font-size: 1.1rem;
   transition: background-color 0.3s, color 0.3s;
-    color: #D4694A;
+    color: #579cd4;
 
 }
 
@@ -69,6 +69,6 @@
   color: #fff;
 }
 .titulo-servicios{
-    color: #D4694A;
+    color: #579cd4;
 
 }

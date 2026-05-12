@@ -24,10 +24,10 @@
 .contacto-campo .p-dropdown {
   width: 100%;
   padding: 0.6rem 0.8rem;
-  border: 1px solid #D4694A;
+  border: 1px solid #579cd4;
   border-radius: 8px;
   background: transparent;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Supermercado One";
   font-size: 1rem;
   color: #333;
   outline: none;
@@ -40,24 +40,35 @@
 
 .contacto-campo input:focus,
 .contacto-campo textarea:focus {
-  border-color: #D4694A;
+  border-color: #579cd4;
   box-shadow: 0 0 0 2px rgba(212, 105, 74, 0.2);
 }
 
 .contacto-btn {
   align-self: center;
   padding: 0.6rem 2rem;
-  border: 2px solid #D4694A;
+  border: 2px solid #579cd4;
   border-radius: 10px;
   background: transparent;
   color: #333;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Supermercado One";
   font-size: 1.1rem;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .contacto-btn:hover {
-  background-color: #D4694A;
+  background-color: #579cd4;
   color: #fff;
+}
+
+/* ── Dropdown panel options ── */
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+  font-family: "Supermercado One";
+}
+
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item:hover,
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
+  background-color: #61e3f4 !important;
+  color: #333;
 }

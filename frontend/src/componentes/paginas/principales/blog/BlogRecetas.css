@@ -8,7 +8,7 @@
 }
 
 .receta-card {
-  border: 1px solid #D4694A;
+  border: 1px solid #579cd4;
   border-radius: 12px;
   overflow: hidden;
   background: transparent;
@@ -67,9 +67,10 @@
   border: 1px solid #579cd4;
   border-radius: 8px;
   background: transparent;
-  color: #333;
+  color: #579cd4;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
+  font-family: "Supermercado One";
 }
 
 .receta-btn:hover {
@@ -89,7 +90,7 @@
   border: 1px solid #579cd4;
   border-radius: 20px;
   background: transparent;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Supermercado One";
   font-size: 1rem;
   outline: none;
   box-sizing: border-box;

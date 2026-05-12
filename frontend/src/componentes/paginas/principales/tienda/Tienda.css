@@ -61,10 +61,10 @@
   border-radius: 8px;
   background: transparent;
   cursor: pointer;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Supermercado One";
   font-size: 1rem;
   transition: background-color 0.3s, color 0.3s;
-    color: #D4694A;
+    color: #579cd4;
 
 }
 
@@ -105,7 +105,7 @@
   background: transparent;
   color: #579cd4;
   cursor: pointer;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Supermercado One";
   font-size: 1rem;
   transition: background-color 0.3s, color 0.3s;
 }
