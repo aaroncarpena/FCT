@@ -1,0 +1,109 @@
+
+.recetas-contenedor {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.receta-card {
+  border: 1px solid #666;
+  border-radius: 12px;
+  overflow: hidden;
+  background: transparent;
+}
+
+.receta-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.receta-card-body {
+  padding: 1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+.receta-card-body .receta-card-nombre{
+    font-size: 1.5rem;
+}
+
+.receta-categoria {
+  font-size: 0.8rem;
+  color: #666;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.receta-card-body h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.receta-card-body p {
+  font-size: 0.9rem;
+  color: #6b6375;
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.receta-info {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: #6b6375;
+  margin-top: 0.5rem;
+}
+.receta-btn {
+  align-self: flex-start;
+  margin-top: 0.5rem;
+  padding: 0.4rem 1.2rem;
+  border: 1px solid #666;
+  border-radius: 8px;
+  background: transparent;
+  color: #666;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: "Lato", sans-serif;
+}
+
+.receta-btn:hover {
+  background-color: #666;
+  color: #d3d3d3;
+}
+.buscador-contenedor {
+  position: relative;
+  width: 300px;
+  margin: 1rem auto;
+  
+}
+
+.buscador-input {
+  width: 100%;
+  padding: 0.6rem 2.5rem 0.6rem 1rem;
+  border: 1px solid #666;
+  border-radius: 20px;
+  background: transparent;
+  font-family: "Supermercado One";
+  font-size: 1rem;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.buscador-icono {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+  pointer-events: none;
+}
+h1{
+  color: #666;
+}

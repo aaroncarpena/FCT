@@ -7,7 +7,7 @@
   margin: 0;
   font-size: 2.5rem;
   line-height: 1.3;
-    color: #579cd4;
+    color: #666;
 
 }
 
@@ -21,14 +21,14 @@
 }
 
 .introduccion p {
-  color: #6b6375;
+  color: #666;
   max-width: 600px;
 }
 
 .mini-titulo {
   font-size: 1rem;
   letter-spacing: 0.1rem;
-  color: #579cd4;
+  color: #666;
   margin: 0;
-  font-family: "Supermercado One"
+  font-family: "Lato", sans-serif
 }

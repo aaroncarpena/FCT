@@ -1,0 +1,128 @@
+.tienda-intro {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  text-align: center;
+  color: #666;
+}
+
+.tienda-contenedor {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tienda-producto {
+  display: flex;
+  gap: 1.5rem;
+  border: 1px solid #666;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 1rem;
+  align-items: center;
+}
+
+.tienda-producto img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.tienda-producto-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+.tienda-producto-info h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.tienda-producto-info p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.tienda-producto-precio {
+  font-size: 1.3rem;
+  color: #666;
+}
+
+.tienda-producto-btn {
+  align-self: flex-start;
+  padding: 0.4rem 1.2rem;
+  border: 1px solid #666;
+  border-radius: 8px;
+  background: transparent;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+    color: #666;
+
+}
+
+.tienda-producto-btn:hover {
+  background-color: #666;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .tienda-producto {
+    flex-direction: column;
+  }
+
+  .tienda-producto img {
+    width: 100%;
+    height: 200px;
+  }
+}
+.p-paginator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1.5rem 0;
+  background: transparent;
+  border: none;
+}
+
+.p-paginator .p-paginator-page,
+.p-paginator .p-paginator-next,
+.p-paginator .p-paginator-prev,
+.p-paginator .p-paginator-first,
+.p-paginator .p-paginator-last {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #666;
+  background: transparent;
+  color: #666;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.p-paginator .p-paginator-page:hover,
+.p-paginator .p-paginator-next:hover,
+.p-paginator .p-paginator-prev:hover {
+  background-color: #666;
+  color: #D3D3D3;
+}
+
+.p-paginator .p-paginator-page.p-highlight {
+  background-color: #383838;
+  border-color: #383838;
+  color: #D3D3D3;
+}
+h3{
+  color: #666;
+  font-size: "Lato", sans-serif;
+}

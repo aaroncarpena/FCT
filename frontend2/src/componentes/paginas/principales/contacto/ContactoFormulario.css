@@ -1,0 +1,73 @@
+.contacto-form {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contacto-campo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  text-align: left;
+}
+
+.contacto-campo label {
+  font-weight: bold;
+  color: #6b6375;
+}
+
+.contacto-campo input,
+.contacto-campo textarea,
+.contacto-campo .p-dropdown {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #666;
+  border-radius: 8px;
+  background: transparent;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  color: #333;
+  outline: none;
+}
+
+.contacto-campo textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contacto-campo input:focus,
+.contacto-campo textarea:focus {
+  border-color: #666;
+  box-shadow: 0 0 0 2px rgba(212, 105, 74, 0.2);
+}
+
+.contacto-btn {
+  align-self: center;
+  padding: 0.6rem 2rem;
+  border: 2px solid #666;
+  border-radius: 10px;
+  background: transparent;
+  color: #383838;
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.contacto-btn:hover {
+  background-color: #666;
+  color: #D3D3D3;
+}
+
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+  font-family: "Lato", sans-serif;
+}
+
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item:hover,
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
+  background-color: #666 !important;
+  color: #D3D3D3;
+}
