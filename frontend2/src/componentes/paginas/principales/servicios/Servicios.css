@@ -87,7 +87,6 @@
   text-align: center;
 }
 
-/* Tablet: 2 columnas */
 @media (max-width: 900px) {
   .servicios-contenedor {
     flex-wrap: wrap;
@@ -106,7 +105,6 @@
   }
 }
 
-/* Móvil: 1 columna */
 @media (max-width: 600px) {
   .servicios-contenedor {
     flex-direction: column;

@@ -29,7 +29,6 @@
   color: #666;
 }
 
-/* Tablet */
 @media (max-width: 900px) {
   .sobremi-presentacion-contenedor {
     gap: 1.5rem;
@@ -42,7 +41,6 @@
   }
 }
 
-/* Móvil */
 @media (max-width: 600px) {
   .sobremi-presentacion-contenedor {
     grid-template-columns: 1fr;

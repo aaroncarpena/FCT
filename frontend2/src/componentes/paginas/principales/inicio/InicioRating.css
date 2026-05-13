@@ -26,7 +26,6 @@
   text-align: center;
 }
 
-/* Tablet */
 @media (max-width: 900px) {
   .participante-card {
     padding: 1.5rem 1.5rem;
@@ -38,7 +37,6 @@
   }
 }
 
-/* Móvil */
 @media (max-width: 600px) {
   .participante-card {
     padding: 1.2rem 1rem;
