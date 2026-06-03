@@ -1,12 +1,14 @@
-import React from 'react'
-import {contextoProductos} from '../contextos/ContextoProductos.jsx'
+import { useContext } from "react";
+import { contextoProductos } from "../contextos/ContextoProductos.jsx";
+
 const useProductos = () => {
-  const ctx = useContext()
+  const ctx = useContext(contextoProductos);
 
-  if(!ctx){
-    throw new Error('useProductos debe ser usado dentro de un ContextoProductos.Provider')
+  if (!ctx) {
+    throw new Error("useProductos debe ser usado dentro de un ContextoProductos.Provider");
   }
-  return ctx
-}
 
-export default useProductos
+  return ctx;
+};
+
+export default useProductos;

@@ -9,7 +9,7 @@
 
 .receta-card {
   border: 1px solid #666;
-  border-radius: 12px;
+  border-radius: 8px;
   overflow: hidden;
   background: transparent;
 }
@@ -53,8 +53,19 @@
   overflow: hidden;
 }
 
+.receta-card.expandida .receta-card-body p {
+  display: block;
+  overflow: visible;
+}
+
+.receta-extra {
+  padding-top: 0.5rem;
+  border-top: 1px solid #b7b7b7;
+}
+
 .receta-info {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   font-size: 0.85rem;
   color: #6b6375;
@@ -75,6 +86,7 @@
 
 .receta-btn:hover {
   background-color: #666;
+  color: #d3d3d3;
 }
 .buscador-contenedor {
   position: relative;

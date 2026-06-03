@@ -35,7 +35,7 @@
 
 .articulo-card {
   border: 1px solid #666;
-  border-radius: 12px;
+  border-radius: 8px;
   overflow: hidden;
   background: transparent;
 }
@@ -66,6 +66,16 @@
   -webkit-line-clamp: 8;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.articulo-card.expandida .articulo-card-body p {
+  display: block;
+  overflow: visible;
+}
+
+.articulo-extra {
+  padding-top: 0.5rem;
+  border-top: 1px solid #b7b7b7;
 }
 
 .articulo-btn {
